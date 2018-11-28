@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "8.11"
+
+branches:
+  only:
+    - master
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "694d9602-4335-4a60-b910-92584843c04b"
+  github-token: $GITHUB_TOKEN
+  app: serverdesk_api
+  on:
+    branch: master
