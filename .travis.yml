@@ -6,11 +6,22 @@ branches:
   only:
     - master
 
+addons:
+    chrome: stable
+
+cache:
+    directories:
+        - node_modules
+
+script: 
+- npm test
+- npm start
+
 deploy:
-  provider: heroku
-  api_key:
-    secure: "694d9602-4335-4a60-b910-92584843c04b"
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
   github-token: $GITHUB_TOKEN
-  app: serverdesk
+  local_dir: dist
   on:
     branch: master
