@@ -2,7 +2,7 @@ module.exports = {
     port: 9886,
     databaseHost: 'localhost',
     databaseUser: 'root',
-    databasePassword: 'winjit@123',
+    databasePassword: '',
     databaseDatabaseName: 'serverdesk',
     privateKey: '37LvPsm4vaBcd4CY',
     frontEndHost: "http://localhost:4200",

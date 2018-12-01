@@ -1116,3 +1116,17 @@
 ::1 - - [28/Nov/2018:16:18:19 +0000] "GET / HTTP/1.1" 200 179
 ::1 - - [28/Nov/2018:16:18:19 +0000] "GET /stylesheets/style.css HTTP/1.1" 200 119
 ::1 - - [28/Nov/2018:16:18:19 +0000] "GET /favicon.ico HTTP/1.1" 500 14
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:01 +0000] "POST /isLogined HTTP/1.1" 200 56
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:01 +0000] "POST /login HTTP/1.1" 200 65
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:01 +0000] "POST /isLogined HTTP/1.1" 200 56
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:01 +0000] "POST /getTickets HTTP/1.1" 200 56
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:01 +0000] "POST /getTicketTypes HTTP/1.1" 200 56
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:01 +0000] "POST /addUpdateTicket HTTP/1.1" 200 56
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:01 +0000] "POST /getDashboardData HTTP/1.1" 200 56
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:58 +0000] "POST /isLogined HTTP/1.1" 200 56
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:58 +0000] "POST /login HTTP/1.1" 200 290
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:58 +0000] "POST /isLogined HTTP/1.1" 200 54
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:58 +0000] "POST /getTickets HTTP/1.1" 200 451
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:58 +0000] "POST /getTicketTypes HTTP/1.1" 200 461
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:58 +0000] "POST /addUpdateTicket HTTP/1.1" 200 189
+::ffff:127.0.0.1 - - [01/Dec/2018:04:56:58 +0000] "POST /getDashboardData HTTP/1.1" 200 413
