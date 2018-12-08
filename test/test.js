@@ -1,8 +1,8 @@
 var chai = require('chai');
 var chaiHttp = require('chai-http');
 chai.use(chaiHttp);
-var app = require('../app.js');
 var expect = chai.expect;
+var app = require('../app.js');
 var token = "";
 
 // In this test it's expected a task list of two tasks
